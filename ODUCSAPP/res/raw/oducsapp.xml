@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<items>
+<directory
+   type="faculty"
+   name="Dr. Tamer Nadeem"
+   position="Assistant Professor"
+   office="ECS room 3204"
+   email="nadeem@cs.odu.edu"
+   phone="(757) 683-7718"
+   office_hour="10-11am Mon,thursday">
+  <course name="Wireless Network and Systems" CRN="CS 795"/>
+  <course name="App Development for Smart Devices" CRN="CS 495"/>
+</directory>  
+ 
+<directory
+   type="Staff"
+   name="Phyllis Woods"
+   position="Head Secretary"
+   office="ECS 3300"
+   phone="(757)683-6001 x4817"
+   email="phyl@cs.odu.edu"
+   office_hour="">   
+</directory>  
+
+<courses
+   CRN="16746"
+   courseTitle="Database Concept"
+   creditHours="3.00"
+   Days="TR"
+   Time="1:30-2:45pm"
+   classLocation="DRGS 1117"
+   Instructor="IRWIN B LEVINSTEIN"
+   TA=""
+   officeHours="12:30-1:30pm" />
+
+<events
+   type="class"
+   time="1:30-2:45pm"
+   day="TR"
+   note="Class Database" />
+
+<events
+   type="assignment"
+   time="1:30-2:45pm"
+   day="F"
+   note="App Development" />
+
+<events
+   type="appointment"
+   time="1:30-2:45pm"
+   day="W"
+   note="TA Database" />
+
+
+<news
+   title="Title: Machine Learning in Vision and Brain Analytics"
+   keyword="Machine Learning"
+   highlights="Shuiwang Ji"
+   pictures="filename"
+   />
+   
+<contact
+   Name="System Group"
+   office="ECS Building"
+   email="root@cs.odu.edu"
+   /> 
+     
+
+</items>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainscreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+    android:stretchColumns="*" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:padding="20sp" >
+
+        <Button
+            android:id="@+id/Button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:height="80dp"
+            android:onClick="performAction"
+            android:text="DIRECTORY"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:height="80dp"
+            android:onClick="performAction"
+            android:text="COURSES"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:height="80dp"
+            android:onClick="performAction"
+            android:text="EVENTS"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="bold|italic" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp" >
+
+        <Button
+            android:id="@+id/Button03"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:height="80dp"
+            android:onClick="performAction"
+            android:text="NEWS"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/Button04"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:height="80dp"
+            android:onClick="performAction"
+            android:text="CONTACT"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/Button05"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:height="80dp"
+            android:onClick="performAction"
+            android:text="SETTINGS"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="bold|italic" />
+    </TableRow>
+
+</TableLayout>
